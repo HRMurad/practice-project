@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    
+
+}
+
+.mainSection{
+    background-color: chocolate;
+    height: 100vh;
+  
+   
+}
+
+.mainImg{
+    background-image: url("/img/icons/photo-1579546928686-286c9fbde1ec.avif");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    padding: 20px 0px;
+}
+.menuBar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.menuBar li{
+    padding-right: 30px;
+}
+.menuBar{
+    display: flex;
+    align-items: center;
+}
+
+.mainBody{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 125px;
+    padding: 20px 0px;
+}
+
+.left-side-body{
+    width: 350px;
+}
+.right-side-body img{
+    width: 300px;
+    height: 300px;
+}
+
+.imgTitle{
+    text-align: center;
+}
+
+.bottomItems ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px;
+}
+
+.bottomItems li{
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.proSection{
+    background-color: antiquewhite;
+}
+.proTitle{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.proBody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.proImg img{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+.proSkills{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+}
+
+.proSkills div{
+    width: 100px;
+    height: 130px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.proExperience{
+    margin: 40px 120px;
+    text-align: center;
+}
+
+.proExperience button{
+    margin-top: 20px;
+    background-color: brown;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+.proButton{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.bodySection{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 40px 0px;
+}
+
+.bodySec-left{
+    padding: 20px 30px;
+    color: white;
+    margin: 120px 0px;
+}
+.addressImg{
+    display: flex;
+}
+.addressService{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.addressImg img{
+    margin-right: 10px;
+}
+
+.addressInput button{
+    background-color: brown;
+    padding: 12px 22px;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.p{
+    border-left: 2px solid white;
+    height: 80px;
+}
+.bodySec-right{
+    display: flex;
+    margin: 40px 30px;
+}
+
+.one,.two{
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 50px 60px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.secondBody{
+    background-color: antiquewhite;
+}
+
+.secBodyOver{
+    width: 900px;
+    height: 160px;
+    background-color: rgb(232, 55, 55);
+    text-align: center;
+    position: absolute;
+    margin: -80px 105px 0px 105px;
+    padding: 0px 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.horiz{
+    border-left: 2px solid white;
+    height: 100px;
+}
+
+
+.overlayPhone{
+    display: flex;
+}
+
+.overlayPhone img{
+    width: 160px;
+    height:100px;
+    margin-right: 5px;
+}
+.overlayPhone span p{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.overlayPhone span{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.overlayButton button{
+    background-color: white;
+    padding: 12px 22px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.secBody{
+    padding-top: 120px;
+
+}
+
+.secBodyHead{
+    text-align: center;
+    margin: 0px 250px 0px 250px;
+}
+
+.secBodyHead h1{
+    font-size: 45px;
+    margin-bottom: 5px
+}
+ .secBodyImg img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+ }
+.secBodyImg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 50px 60px 0px 60px;
+    padding-bottom: 70px;
+}
+
+.secBodyImg div{
+    box-shadow: 3px 0px 11px rgb(243, 154, 154);
+    padding: 30px;
+
+}
