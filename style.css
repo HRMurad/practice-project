@@ -7,8 +7,6 @@
 .mainSection{
     background-color: chocolate;
     height: 100vh;
-  
-   
 }
 
 .mainImg{
@@ -19,8 +17,15 @@
 .navBar{
     display: flex;
     justify-content: space-between;
-    margin: 0px 25px;
-    padding: 20px 0px;
+    background-color: transparent;
+    /* margin: 0px 25px; */
+    padding: 20px 25px;
+}
+
+.navBar:hover{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
 }
 .menuBar ul{
     display: flex;
@@ -50,6 +55,7 @@
 .right-side-body img{
     width: 300px;
     height: 300px;
+    border-radius: 50%;
 }
 
 .imgTitle{
@@ -92,7 +98,7 @@
 .proSkills{
     display: flex;
     justify-content: space-between;
-    margin: 20px 60px;
+    margin: 20px 180px;
 }
 
 .proSkills div{
