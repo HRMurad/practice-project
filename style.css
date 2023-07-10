@@ -264,3 +264,28 @@
     padding: 30px;
 
 }
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footerSection{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerSection div{
+    margin: 20px 70px;
+}
+
+.footerHori{
+    display: block;
+    border-top: 1px solid white;
+    margin: 30px 300px 10px 300px;
+}
+
+.copyRight{
+    padding: 20px 400px 20px 400px;
+}
