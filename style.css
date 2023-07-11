@@ -10,7 +10,7 @@
 }
 
 .mainImg{
-    background-image: url("/img/icons/photo-1579546928686-286c9fbde1ec.avif");
+    background-image: url("./img/icons/photo-1579546928686-286c9fbde1ec.avif");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -18,7 +18,6 @@
     display: flex;
     justify-content: space-between;
     background-color: transparent;
-    /* margin: 0px 25px; */
     padding: 20px 25px;
 }
 
@@ -30,11 +29,10 @@
 .menuBar ul{
     display: flex;
     list-style: none;
-    margin-right: 10px;
 }
 
 .menuBar li{
-    padding-right: 30px;
+    padding-right: 20px;
 }
 .menuBar{
     display: flex;
